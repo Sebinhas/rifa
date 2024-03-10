@@ -15,10 +15,10 @@ export default function RootLayout({ children }) {
    return (
       <html lang="es">
          <body className={rubik.className}>
-            <main className="w-screen h-screen text-zinc-900">
-               <HeaderMain />
-               {children}
-            </main>
+            
+            <HeaderMain />
+            {children}
+          
          </body>
       </html>
    )

@@ -1,9 +1,9 @@
-import IndexWeb from "@/pages/index/IndexWeb"
-import IndexMobile from "@/pages/index/IndexMobile"
+import IndexWeb from "@/pages/index/IndexWeb.js"
+import IndexMobile from "@/pages/index/IndexMobile.js"
 export default function Home() {
    return (
       <>
-         <IndexMobile/>
+         <IndexMobile />
          <IndexWeb/>
       </>
    )
