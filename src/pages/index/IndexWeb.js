@@ -5,9 +5,9 @@ export default function IndexWeb() {
       <div className='w-full h-screen hidden md:block bg_back text-zinc-800 relative'>
          <div className='w-full h-full flex pt-[100px] px-[30px] pb-[40px] '>
             <div className='w-1/2 lg:w-1/2 xl:w-2/5 h-full flex flex-col justify-center items-center' >
-               <div className='w-full flex flex-col justify-center'>
-                  <div className='w-full max-w-[350px] lg:max-w-[550px] flex flex-col gap-4'>
-                     <div className='text-3xl lg:text-4xl xl:text-6xl font-bold'>
+               <div className='w-full flex flex-col '>
+                  <div className='w-full max-w-[350px] lg:max-w-full flex flex-col gap-4'>
+                     <div className='text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold'>
                         GANA UN TOYOTA COROLLA 2024
                      </div>
                      <div className=' leading-6 text-lg lg:text-2xl'>
