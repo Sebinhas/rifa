@@ -10,3 +10,8 @@ body{
 .bg_back{
    background-color: rgba(255, 255, 255, 0.4);
 }
+
+.slider_img{
+   width: 400px;
+   height: 300px;
+}

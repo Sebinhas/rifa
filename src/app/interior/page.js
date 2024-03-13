@@ -1,10 +1,11 @@
 
-import IndexInterior from "@/pages/index/IndexInterior";
-
+import ViewInterior from "@/components/car/ViewInterior";
+import ViewInteriorMobile from "@/components/car/ViewInteriorMobile";
 const interior = () => {
    return (
       <div>
-         <IndexInterior/>
+         <ViewInteriorMobile/>
+         <ViewInterior/>
       </div>
    );
 }

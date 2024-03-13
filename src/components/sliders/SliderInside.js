@@ -9,20 +9,10 @@ const SliderInside = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
-      {
-        breakpoint: 1536,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-          infinite:true,
-           dots: true
-        }
-      },
       {
         breakpoint: 1024,
         settings: {
@@ -35,8 +25,8 @@ const SliderInside = () => {
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 1
         }
       },
@@ -52,13 +42,13 @@ const SliderInside = () => {
 
 
   return (
-    <div className="slider-container w-[400px] h-72 ">
-        <div>
-          <Slider {...settings}>
-            <div className="w-80 h-64 bg-blue-500 flex justify-center items-center">
+    <div className="slider-container  ">
+        <div  className=" w-[400px] h-72">
+          <Slider  {...settings}>
+            <div className="w-[400px] h-[250px] bg-blue-500 flex justify-center items-center">
               <div>1</div>
             </div>
-            <div className="w-80 h-64 bg-red-300 flex justify-center items-center">
+            <div className="md:slider_img w-64 h-10 md:bg-yellow-500 bg-red-300 flex justify-center items-center">
               <div>2</div>
             </div>
             <div className="w-80 h-64 bg-blue-500 flex justify-center items-center">
