@@ -1,6 +1,6 @@
 import BtnPay from '@/components/btns/BtnPay';
 import SliderInside from '@/components/sliders/SliderInside';
-import Imagenes from '../imagenes/Imagenes';
+import Imagenes from '../imagenes/Imagenes.js';
 import Link from 'next/link';
 
 
@@ -12,7 +12,7 @@ const ViewInterior = () => {
          <div className='w-full justify-center items-center flex flex-col'>
             <div className='flex text-center lg:text-6xl font-black text-[40px] leading-[40px]'>GANA UN TOYOTA COROLLA 2024</div>
             <div className='w-full flex flex-col justify-center items-center gap-8'>
-               <div className="w-52  mt-16  flex justify-center items-center">
+               <div className="w-full  mt-16  flex justify-center items-center">
                   <Imagenes/>
                </div>
                <div className="absolute left-[30px] bottom-[40px] xl:left-[40px] xl:bottom-[50px] ">

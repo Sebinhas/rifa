@@ -4,21 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
-import img1 from "../../../public/image/car interior/int1.jpg"
-import img2 from "../../../public/image/car interior/int2.jpg"
-import img3 from "../../../public/image/car interior/int3.jpg"
-import img4 from "../../../public/image/car interior/int4.jpg"
-import img5 from "../../../public/image/car interior/int5.jpg"
-import img6 from "../../../public/image/car interior/int6.jpg"
-import img7 from "../../../public/image/car interior/int7.jpg"
-import img8 from "../../../public/image/car interior/int8.jpg"
-import img9 from "../../../public/image/car interior/int9.jpg"
-import img10 from "../../../public/image/car interior/int10.jpg"
-import img11 from "../../../public/image/car interior/int11.jpg"
-import img12 from "../../../public/image/car interior/int12.jpg"
-import img13 from "../../../public/image/car interior/int13.jpg"
-import img14 from "../../../public/image/car interior/int14.jpg"
-import img15 from "../../../public/image/car interior/int15.jpg"
+
+
 
 const SliderInside = () => {
 
