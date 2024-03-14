@@ -44,7 +44,7 @@ const SliderInside = () => {
 
   return (
     <div className="slider-container  ">
-        <div  className="  w-[300px] sm:w-[400px] lg:w-[500px] ">
+        <div  className="  w-[350px] sm:w-[500px] lg:w-[500px] ">
           <Slider {...settings} >
             <div className="">
               <Image src={img2} alt=""/>

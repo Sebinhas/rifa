@@ -1,5 +1,6 @@
 import BtnPay from '@/components/btns/BtnPay';
 import SliderInside from '@/components/sliders/SliderInside';
+import Imagenes from '../imagenes/Imagenes';
 import Link from 'next/link';
 
 
@@ -7,14 +8,13 @@ const ViewInterior = () => {
 
    return ( 
 
-      <div className="hidden md:block w-full h-screen pt-[100px] px-[30px] xl:pt-[80px]  bg_back  ">
+      <div className="hidden md:block  w-full h-screen pt-[50px] px-[30px] xl:pt-[80px]  bg_back  ">
          <div className='w-full justify-center items-center flex flex-col'>
             <div className='flex text-center lg:text-6xl font-black text-[40px] leading-[40px]'>GANA UN TOYOTA COROLLA 2024</div>
             <div className='w-full flex flex-col justify-center items-center gap-8'>
                <div className="w-52  mt-16  flex justify-center items-center">
-                  <SliderInside/>
+                  <Imagenes/>
                </div>
-               
                <div className="absolute left-[30px] bottom-[40px] xl:left-[40px] xl:bottom-[50px] ">
                   <div className="w-52 flex justify-between ">
                      <button className="w-24 h-10 rounded-full cursor-default bg-opacity-10 border-[2px] border-zinc-800 font-medium text-zinc-800  ">Interior</button>
