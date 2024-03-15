@@ -12,7 +12,7 @@ const ViewInteriorMobile = () => {
          <div className='w-full justify-center items-center flex flex-col'>
             <div className='flex text-center lg:text-6xl font-black text-[40px] leading-[40px]'>GANA UN TOYOTA COROLLA 2024</div>
             <div className='w-full flex flex-col justify-center items-center gap-8'>
-               <div className="w-52  mt-16  flex justify-center items-center">
+               <div className="w-80 sm:w-96  mt-16  flex justify-center items-center">
                   <Imagenes/>
                </div>
                <div className="">
