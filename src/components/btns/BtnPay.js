@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import { PiShoppingCart } from 'react-icons/pi'
 
 const BtnPay = () => {
    return (
-      <div className="w-52 flex flex-col rounded-xl gap-2 shadow-lg cursor-pointer   bg-zinc-800 shadow-zinc-800 text-zinc-100 hover:bg-zinc-100 hover:text-zinc-800 transition-all duration-700">
+      <Link href="pago" className="w-52 flex flex-col rounded-xl gap-2 shadow-lg cursor-pointer   bg-zinc-800 shadow-zinc-800 text-zinc-100 hover:bg-zinc-100 hover:text-zinc-800 transition-all duration-700">
          <div className="pl-4 pt-4 text-3xl font-extrabold ">$ 20.00</div>
          <div className="flex justify-between ">
             <div className="pl-4 pb-4 text-2xl ">Comprar</div>
@@ -10,7 +11,7 @@ const BtnPay = () => {
                <PiShoppingCart />
             </div>
          </div>
-      </div>
+      </Link>
    )
 }
 

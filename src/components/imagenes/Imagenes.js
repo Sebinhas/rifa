@@ -23,7 +23,7 @@ const Imagenes = () => {
 
    return ( 
       <div className="w-full">
-         <div className="w-full flex flex-wrap gap-5">
+         <div className="w-full flex justify-center flex-wrap gap-5">
             {
                images.map((img , index)=>{
                   console.log(img.toString())
